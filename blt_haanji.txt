@@ -1269,5 +1269,88 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-gurubaran@gurubaran:~/haanji/deploy$ 
+gurubaran@gurubaran:~/haanji/deploy$ sudo ssh-agent bash -c 'ssh-add /home/gurubaran/.ssh/id_rsa; git push'
+[sudo] password for gurubaran: 
+Enter passphrase for /home/gurubaran/.ssh/id_rsa: 
+Identity added: /home/gurubaran/.ssh/id_rsa (/home/gurubaran/.ssh/id_rsa)
+fatal: The current branch master-build has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master-build
+
+gurubaran@gurubaran:~/haanji/deploy$ git push --set-upstream origin master-build
+The authenticity of host 'svn-4140.devcloud.hosting.acquia.com (184.72.242.11)' can't be established.
+RSA key fingerprint is SHA256:K06h1/Po8zJ6qtaOVOVK94EuO5ELcFBmVz37XDyFwRo.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/gurubaran/.ssh/known_hosts).
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gurubaran@gurubaran:~/haanji/deploy$ sudo ssh-agent bash -c 'ssh-add /home/gurubaran/.ssh/id_rsa; git push --set-upstream origin master-build' 
+Enter passphrase for /home/gurubaran/.ssh/id_rsa: 
+Identity added: /home/gurubaran/.ssh/id_rsa (/home/gurubaran/.ssh/id_rsa)
+Counting objects: 31472, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (29142/29142), done.
+Writing objects: 100% (31472/31472), 30.06 MiB | 160.00 KiB/s, done.
+Total 31472 (delta 5173), reused 0 (delta 0)
+remote: INFO: you are using 31912kB out of 1024000kB available.
+To svn-4140.devcloud.hosting.acquia.com:haanji.git
+ * [new branch]      master-build -> master-build
+Branch master-build set up to track remote branch master-build from origin.
+gurubaran@gurubaran:~/haanji/deploy$ ssh haanji.dev@free-7244.devcloud.hosting.acquia.com
+The authenticity of host 'free-7244.devcloud.hosting.acquia.com (34.206.52.162)' can't be established.
+RSA key fingerprint is SHA256:m6eONnZMO95/Q1xmwx7kdQhLhS9AE9HGGW0c/jJVFA8.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/gurubaran/.ssh/known_hosts).
+Permission denied (publickey).
+gurubaran@gurubaran:~/haanji/deploy$ sudo ssh-agent bash -c 'ssh-add /home/gurubaran/.ssh/id_rsa; ssh haanji.dev@free-7244.devcloud.hosting.acquia.com'
+Enter passphrase for /home/gurubaran/.ssh/id_rsa: 
+Identity added: /home/gurubaran/.ssh/id_rsa (/home/gurubaran/.ssh/id_rsa)
+The authenticity of host 'free-7244.devcloud.hosting.acquia.com (34.206.52.162)' can't be established.
+RSA key fingerprint is SHA256:m6eONnZMO95/Q1xmwx7kdQhLhS9AE9HGGW0c/jJVFA8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'free-7244.devcloud.hosting.acquia.com,34.206.52.162' (RSA) to the list of known hosts.
+Welcome to Acquia Cloud. For information about shell access on this
+server, please see: https://docs.acquia.com/acquia-cloud/ssh
+
+Usage may be monitored and audited.
+
+haanji@haanji:~$ exit
+logout
+Connection to free-7244.devcloud.hosting.acquia.com closed.
+gurubaran@gurubaran:~/haanji/deploy$ sudo ssh-agent bash -c 'ssh-add /home/gurubaran/.ssh/id_rsa; ssh haanji.dev@free-7244.devcloud.hosting.acquia.com'
+Enter passphrase for /home/gurubaran/.ssh/id_rsa: 
+Identity added: /home/gurubaran/.ssh/id_rsa (/home/gurubaran/.ssh/id_rsa)
+Welcome to Acquia Cloud. For information about shell access on this
+server, please see: https://docs.acquia.com/acquia-cloud/ssh
+
+Usage may be monitored and audited.
+
+haanji@haanji:~$ ls
+dev  test  tmp
+haanji@haanji:~$ cd dev
+haanji@haanji:~/dev$ ls
+backups  db_control  files  files-private  import  livedev  logs  php_sessions	sites  ssl  tmp
+haanji@haanji:~/dev$ whereis haanji
+haanji:
+haanji@haanji:~/dev$ find haanji
+find: ‘haanji’: No such file or directory
+haanji@haanji:~/dev$ locate -b haanji
+locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+haanji@haanji:~/dev$ whais haanji
+bash: whais: command not found
+haanji@haanji:~/dev$ ls
+backups  db_control  files  files-private  import  livedev  logs  php_sessions	sites  ssl  tmp
+haanji@haanji:~/dev$ cd livedev
+haanji@haanji:~/dev/livedev$ ls
+docroot
+haanji@haanji:~/dev/livedev$ cd docrrot
+bash: cd: docrrot: No such file or directory
+haanji@haanji:~/dev/livedev$ cd docroot
+haanji@haanji:~/dev/livedev/docroot$ ls
+haanji@haanji:~/dev/livedev/docroot$ cd ../..
+haanji@haanji:~/dev$ 
 
