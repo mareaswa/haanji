@@ -1,0 +1,1006 @@
+gurubaran@gurubaran:~$ composer create-project --no-interaction acquia/blt-project summer
+    1/11:	http://packagist.org/p/provider-archived$7c82e16a0cd3559e8e546c295851ee4f9b915300c1457e0d45d84b05feaa8f5e.json
+    2/11:	http://packagist.org/p/provider-2014$5e8814e476eff68173d78c98c18108ab5b57af4da9525fd592cc0793bc91b961.json
+    3/11:	http://packagist.org/p/provider-latest$e9f3140a15b64b7f683e1b70f53892750d7ad7d27481d809282f3df6332fe247.json
+    4/11:	http://packagist.org/p/provider-2017$975d6da125483355cf329719c99736930306d86db99100a27084b6b84d0dfeeb.json
+    5/11:	http://packagist.org/p/provider-2013$2e6252b1110639bd27b7a15ca1188f5d2676d9276261957545614f88de598189.json
+    6/11:	http://packagist.org/p/provider-2017-04$8f30b2a6abacfba0f0130bb72bc94a61ef98021218d082c05e0114337aabe64e.json
+    7/11:	http://packagist.org/p/provider-2017-07$55b332267e4c16cdcd7871dd08edc28a86f427dbcc76e203ed48c30e135a615e.json
+    8/11:	http://packagist.org/p/provider-2017-10$4138787df473445918484752dae9765d31f84500544b4795f94628fda101e5b5.json
+    9/11:	http://packagist.org/p/provider-2015$abc7073a3bc75a3caf535fdaeae2bb9b93cf52e1e5e4abd9294eea4e155130f2.json
+    11/11:	http://packagist.org/p/provider-2018-01$5c1ce8a89b92ee219527e2325465969a23500f16e7fbc79f43419ed1747326a7.json
+    11/11:	http://packagist.org/p/provider-2016$79a35b10061fc6f454a6be51017d077cf898926991501b8b0dcaf90003a4ac07.json
+    Finished: success: 11, skipped: 0, failure: 0, total: 11
+Installing acquia/blt-project (8.0.4)
+  - Installing acquia/blt-project (8.0.4): Loading from cache
+Created project in summer
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+    1/1:	https://codeload.github.com/twigphp/Twig/legacy.zip/9c24f2cd39dc1906b76879e099970b7e53724601
+    Finished: success: 1, skipped: 0, failure: 0, total: 1
+Package operations: 69 installs, 0 updates, 0 removals
+  - Installing wikimedia/composer-merge-plugin (v1.4.1): Loading from cache
+  - Installing composer/installers (v1.5.0): Loading from cache
+  - Installing grasmash/drupal-security-warning (1.1.1): Loading from cache
+  - Installing cweagans/composer-patches (1.6.4): Loading from cache
+  - Installing tivie/php-os-detector (1.1.0): Loading from cache
+  - Installing symfony/yaml (v3.2.14): Loading from cache
+  - Installing psr/log (1.0.2): Loading from cache
+  - Installing symfony/debug (v3.4.5): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.7.0): Loading from cache
+  - Installing symfony/console (v3.2.14): Loading from cache
+  - Installing squizlabs/php_codesniffer (2.9.1): Loading from cache
+  - Installing sebastian/version (1.0.6): Loading from cache
+  - Installing sebastian/global-state (1.1.1): Loading from cache
+  - Installing sebastian/recursion-context (1.0.5): Loading from cache
+  - Installing sebastian/exporter (1.2.2): Loading from cache
+  - Installing sebastian/environment (1.3.8): Loading from cache
+  - Installing sebastian/diff (1.4.3): Loading from cache
+  - Installing sebastian/comparator (1.2.4): Loading from cache
+  - Installing doctrine/instantiator (1.1.0): Loading from cache
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing phpunit/phpunit-mock-objects (2.3.8): Loading from cache
+  - Installing phpunit/php-timer (1.0.9): Loading from cache
+  - Installing phpunit/php-file-iterator (1.4.5): Loading from cache
+  - Installing phpunit/php-token-stream (1.4.12): Loading from cache
+  - Installing phpunit/php-code-coverage (2.2.4): Loading from cache
+  - Installing webmozart/assert (1.3.0): Loading from cache
+  - Installing phpdocumentor/reflection-common (1.0.1): Loading from cache
+  - Installing phpdocumentor/type-resolver (0.4.0): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Loading from cache
+  - Installing phpspec/prophecy (1.7.5): Loading from cache
+  - Installing phpunit/phpunit (4.8.36): Loading from cache
+  - Installing oomphinc/composer-installers-extender (v1.1.2): Loading from cache
+  - Installing dflydev/dot-access-data (v1.1.0): Loading from cache
+  - Installing grasmash/yaml-expander (1.4.0): Loading from cache
+  - Installing symfony/filesystem (v3.4.5): Loading from cache
+  - Installing grasmash/yaml-cli (1.0.3): Loading from cache
+  - Installing symfony/event-dispatcher (v3.4.5): Loading from cache
+  - Installing webmozart/path-util (2.3.0): Loading from cache
+  - Installing symfony/var-dumper (v3.4.5): Loading from cache
+  - Installing symfony/finder (v3.4.5): Loading from cache
+  - Installing jakub-onderka/php-console-color (0.1): Loading from cache
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache
+  - Installing nikic/php-parser (v3.1.5): Loading from cache
+  - Installing psy/psysh (v0.8.17): Loading from cache
+  - Installing pear/console_table (v1.3.1): Loading from cache
+  - Installing consolidation/output-formatters (3.1.13): Loading from cache
+  - Installing consolidation/annotated-command (2.8.3): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing container-interop/container-interop (1.2.0): Loading from cache
+  - Installing league/container (2.4.1): Loading from cache
+  - Installing consolidation/log (1.0.5): Loading from cache
+  - Installing symfony/process (v4.0.5): Loading from cache
+  - Installing grasmash/expander (1.0.0): Loading from cache
+  - Installing consolidation/config (1.0.9): Loading from cache
+  - Installing consolidation/robo (1.2.2): Loading from cache
+  - Installing drush/drush (8.1.16): Loading from cache
+  - Installing drupal/coder (8.2.12): Cloning 984c54a7b1 from cache
+  - Installing doctrine/inflector (v1.1.0): Loading from cache
+  - Installing doctrine/lexer (v1.0.1): Loading from cache
+  - Installing doctrine/collections (v1.5.0): Loading from cache
+  - Installing doctrine/cache (v1.7.1): Loading from cache
+  - Installing doctrine/annotations (v1.6.0): Loading from cache
+  - Installing doctrine/common (v2.8.1): Loading from cache
+  - Installing dealerdirect/phpcodesniffer-composer-installer (v0.4.4): Loading from cache
+  - Installing composer/semver (1.4.2): Loading from cache
+  - Installing twig/twig (v1.35.2): Loading from cache
+  - Installing asm89/twig-lint (1.0.2): Loading from cache
+  - Installing acquia/blt (8.9.12): Loading from cache
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (>=2.2.1)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+symfony/event-dispatcher suggests installing symfony/dependency-injection ()
+symfony/event-dispatcher suggests installing symfony/http-kernel ()
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/var-dumper suggests installing ext-symfony_debug ()
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+pear/console_table suggests installing pear/Console_Color2 (>=0.1.2)
+consolidation/robo suggests installing pear/archive_tar (Allows tar archives to be created and extracted in taskPack and taskExtract, respectively.)
+consolidation/robo suggests installing henrikbjorn/lurker (For monitoring filesystem changes in taskWatch)
+consolidation/robo suggests installing patchwork/jsqueeze (For minifying JS files in taskMinify)
+consolidation/robo suggests installing natxet/CssMin (For minifying CSS files in taskMinify)
+drush/drush suggests installing drush/config-extra (Provides configuration workflow commands, such as config-merge.)
+doctrine/cache suggests installing alcaeus/mongo-php-adapter (Required to use legacy MongoDB driver)
+dealerdirect/phpcodesniffer-composer-installer suggests installing dealerdirect/qa-tools (All the PHP QA tools you'll need)
+acquia/blt suggests installing hirak/prestissimo (^0.3)
+acquia/blt suggests installing typhonius/acquia_cli (^0.0.7)
+Writing lock file
+Generating autoload files
+    1/3:	http://packagist.org/p/provider-latest$9bb7e205217d2ff042f2f9e8d209750b343eea1272132dec14fade9cf066f0c6.json
+    2/3:	http://packagist.org/p/provider-2018-01$0cbb81563cb08200dad333273cddab262686474a7a64841542d9312f3eebd749.json
+    3/3:	http://packagist.org/p/provider-2016$64e935f65bad603157b49f15d1ef17de41cec7eb4bfc447b90f1bbcc71cf6f9e.json
+    Finished: success: 3, skipped: 0, failure: 0, total: 3
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Nothing to install or update
+Generating autoload files
+PHP CodeSniffer Config installed_paths set to ../../drupal/coder/coder_sniffer/
+PHP CodeSniffer Config installed_paths set to ../../drupal/coder/coder_sniffer/
+Creating BLT templated files...
+ > /home/gurubaran/summer/vendor/acquia/blt/bin/blt internal:create-project --ansi
+Copying files from BLT's template into your project...
+Merging default configuration into composer.json...
+Merging BLT's project.yml template with your project's blt/project.yml...
+Installing new Composer dependencies provided by BLT. This make take a while...
+[ExecStack] composer install --no-interaction --prefer-dist --ansi
+[ExecStack] Running composer install --no-interaction --prefer-dist --ansi in /home/gurubaran/summer
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 69 installs, 0 updates, 0 removals
+  - Installing wikimedia/composer-merge-plugin (v1.4.1): Loading from cache
+  - Installing composer/installers (v1.5.0): Loading from cache
+  - Installing grasmash/drupal-security-warning (1.1.1): Loading from cache
+  - Installing cweagans/composer-patches (1.6.4): Loading from cache
+No patches supplied.
+Gathering patches for dependencies. This might take a minute.
+  - Installing tivie/php-os-detector (1.1.0): Loading from cache
+  - Installing symfony/yaml (v3.2.14): Loading from cache
+  - Installing psr/log (1.0.2): Loading from cache
+  - Installing symfony/debug (v3.4.5): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.7.0): Loading from cache
+  - Installing symfony/console (v3.2.14): Loading from cache
+  - Installing squizlabs/php_codesniffer (2.9.1): Loading from cache
+  - Installing sebastian/version (1.0.6): Loading from cache
+  - Installing sebastian/global-state (1.1.1): Loading from cache
+  - Installing sebastian/recursion-context (1.0.5): Loading from cache
+  - Installing sebastian/exporter (1.2.2): Loading from cache
+  - Installing sebastian/environment (1.3.8): Loading from cache
+  - Installing sebastian/diff (1.4.3): Loading from cache
+  - Installing sebastian/comparator (1.2.4): Loading from cache
+  - Installing doctrine/instantiator (1.1.0): Loading from cache
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing phpunit/phpunit-mock-objects (2.3.8): Loading from cache
+  - Installing phpunit/php-timer (1.0.9): Loading from cache
+  - Installing phpunit/php-file-iterator (1.4.5): Loading from cache
+  - Installing phpunit/php-token-stream (1.4.12): Loading from cache
+  - Installing phpunit/php-code-coverage (2.2.4): Loading from cache
+  - Installing webmozart/assert (1.3.0): Loading from cache
+  - Installing phpdocumentor/reflection-common (1.0.1): Loading from cache
+  - Installing phpdocumentor/type-resolver (0.4.0): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Loading from cache
+  - Installing phpspec/prophecy (1.7.5): Loading from cache
+  - Installing phpunit/phpunit (4.8.36): Loading from cache
+  - Installing oomphinc/composer-installers-extender (v1.1.2): Loading from cache
+  - Installing dflydev/dot-access-data (v1.1.0): Loading from cache
+  - Installing grasmash/yaml-expander (1.4.0): Loading from cache
+  - Installing symfony/filesystem (v3.4.5): Loading from cache
+  - Installing grasmash/yaml-cli (1.0.3): Loading from cache
+  - Installing symfony/event-dispatcher (v3.4.5): Loading from cache
+  - Installing webmozart/path-util (2.3.0): Loading from cache
+  - Installing symfony/var-dumper (v3.4.5): Loading from cache
+  - Installing symfony/finder (v3.4.5): Loading from cache
+  - Installing jakub-onderka/php-console-color (0.1): Loading from cache
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache
+  - Installing nikic/php-parser (v3.1.5): Loading from cache
+  - Installing psy/psysh (v0.8.17): Loading from cache
+  - Installing pear/console_table (v1.3.1): Loading from cache
+  - Installing consolidation/output-formatters (3.1.13): Loading from cache
+  - Installing consolidation/annotated-command (2.8.3): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing container-interop/container-interop (1.2.0): Loading from cache
+  - Installing league/container (2.4.1): Loading from cache
+  - Installing consolidation/log (1.0.5): Loading from cache
+  - Installing symfony/process (v4.0.5): Loading from cache
+  - Installing grasmash/expander (1.0.0): Loading from cache
+  - Installing consolidation/config (1.0.9): Loading from cache
+  - Installing consolidation/robo (1.2.2): Loading from cache
+  - Installing drush/drush (8.1.16): Loading from cache
+  - Installing drupal/coder (8.2.12): Cloning 984c54a7b1 from cache
+  - Installing doctrine/inflector (v1.1.0): Loading from cache
+  - Installing doctrine/lexer (v1.0.1): Loading from cache
+  - Installing doctrine/collections (v1.5.0): Loading from cache
+  - Installing doctrine/cache (v1.7.1): Loading from cache
+  - Installing doctrine/annotations (v1.6.0): Loading from cache
+  - Installing doctrine/common (v2.8.1): Loading from cache
+  - Installing dealerdirect/phpcodesniffer-composer-installer (v0.4.4): Loading from cache
+  - Installing composer/semver (1.4.2): Loading from cache
+  - Installing twig/twig (v1.35.2): Loading from cache
+  - Installing asm89/twig-lint (1.0.2): Loading from cache
+  - Installing acquia/blt (8.9.12): Loading from cache
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (>=2.2.1)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+symfony/event-dispatcher suggests installing symfony/dependency-injection ()
+symfony/event-dispatcher suggests installing symfony/http-kernel ()
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/var-dumper suggests installing ext-symfony_debug ()
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+pear/console_table suggests installing pear/Console_Color2 (>=0.1.2)
+consolidation/robo suggests installing pear/archive_tar (Allows tar archives to be created and extracted in taskPack and taskExtract, respectively.)
+consolidation/robo suggests installing henrikbjorn/lurker (For monitoring filesystem changes in taskWatch)
+consolidation/robo suggests installing patchwork/jsqueeze (For minifying JS files in taskMinify)
+consolidation/robo suggests installing natxet/CssMin (For minifying CSS files in taskMinify)
+drush/drush suggests installing drush/config-extra (Provides configuration workflow commands, such as config-merge.)
+doctrine/cache suggests installing alcaeus/mongo-php-adapter (Required to use legacy MongoDB driver)
+dealerdirect/phpcodesniffer-composer-installer suggests installing dealerdirect/qa-tools (All the PHP QA tools you'll need)
+acquia/blt suggests installing hirak/prestissimo (^0.3)
+acquia/blt suggests installing typhonius/acquia_cli (^0.0.7)
+Writing lock file
+Generating autoload files
+Gathering patches for root package.
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+    1/2:	https://ftp.drupal.org/files/projects/pathauto-8.x-1.1.zip
+    2/2:	https://codeload.github.com/Behat/MinkExtension/legacy.zip/80f7849ba53867181b7e412df9210e12fba50177
+    Finished: success: 2, skipped: 0, failure: 0, total: 2
+Package operations: 112 installs, 2 updates, 0 removals
+Gathering patches for root package.
+Gathering patches for dependencies. This might take a minute.
+  - Installing drupal-composer/drupal-scaffold (2.4.0): Loading from cache
+  - Installing symfony/translation (v3.2.14): Loading from cache
+  - Updating symfony/event-dispatcher (v3.4.5 => v3.2.14): Loading from cache
+  - Installing symfony/dependency-injection (v3.2.14): Loading from cache
+  - Installing symfony/config (v3.2.14): Loading from cache
+  - Installing symfony/class-loader (v3.2.14): Loading from cache
+  - Installing behat/transliterator (v1.2.0): Loading from cache
+  - Installing behat/gherkin (v4.5.1): Loading from cache
+  - Installing behat/behat (v3.3.1): Loading from cache
+  - Installing jarnaiz/behat-junit-formatter (v1.3.2): Loading from cache
+  - Installing jakoch/phantomjs-installer (2.1.1-p07): Loading from cache
+  - Installing textalk/websocket (1.2.0): Loading from cache
+  - Installing symfony/css-selector (v3.4.5): Loading from cache
+  - Installing behat/mink (v1.7.1): Loading from cache
+  - Installing dmore/chrome-mink-driver (2.4.0): Loading from cache
+  - Installing dmore/behat-chrome-extension (1.0.0): Loading from cache
+  - Installing zendframework/zend-stdlib (3.1.0): Loading from cache
+  - Installing zendframework/zend-escaper (2.5.2): Loading from cache
+  - Installing zendframework/zend-feed (2.9.0): Loading from cache
+  - Installing psr/http-message (1.0.1): Loading from cache
+  - Installing zendframework/zend-diactoros (1.7.1): Loading from cache
+  - Installing paragonie/random_compat (v2.0.11): Loading from cache
+  - Installing symfony/http-foundation (v3.2.14): Loading from cache
+  - Installing symfony/psr-http-message-bridge (v1.0.2): Loading from cache
+  - Installing symfony/polyfill-iconv (v1.7.0): Loading from cache
+  - Installing symfony/http-kernel (v3.2.14): Loading from cache
+  - Installing symfony/routing (v3.2.14): Loading from cache
+  - Installing symfony-cmf/routing (1.4.1): Loading from cache
+  - Installing stack/builder (v1.0.5): Loading from cache
+  - Installing masterminds/html5 (2.3.0): Loading from cache
+  - Installing guzzlehttp/psr7 (1.4.2): Loading from cache
+  - Installing guzzlehttp/promises (v1.3.1): Loading from cache
+  - Installing guzzlehttp/guzzle (6.3.0): Loading from cache
+  - Installing egulias/email-validator (1.2.14): Loading from cache
+  - Installing easyrdf/easyrdf (0.9.1): Loading from cache
+  - Installing asm89/stack-cors (1.2.0): Loading from cache
+  - Installing symfony/validator (v3.2.14): Loading from cache
+  - Installing symfony/serializer (v3.2.14): Loading from cache
+  - Updating symfony/process (v4.0.5 => v3.2.14): Loading from cache
+  - Installing drupal/core (8.4.5): Loading from cache
+  - Applying patches for drupal/core
+    https://www.drupal.org/files/issues/2752961-90.patch (Clear Twig caches on deploys)
+    https://www.drupal.org/files/issues/1356276-408--8.4.4.patch (1356276 - Allow profiles to provide a base/parent profile and load them in the correct order)
+    https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch (2880374 - Experimental modules should not have warnings after being installed)
+    https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch (2869592 - Disabled update module shouldn't produce a status report warning)
+    https://www.drupal.org/files/issues/2885441-2.patch (2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer)
+    https://www.drupal.org/files/issues/2883813-27.patch (2883813 - Move File/Image media type into Standard once Media is stable)
+    https://www.drupal.org/files/issues/2877383-23.patch (2877383 - Add action support to Media module)
+    https://www.drupal.org/files/issues/2862041-229.patch (2862041 - Provide useful Views filters for Content Moderation State fields)
+    https://www.drupal.org/files/issues/2815221-69-8.4.x.patch (2815221 - Add quickedit to the latest-revision route)
+
+  - Installing mikey179/vfsstream (v1.6.5): Loading from cache
+  - Installing symfony/dom-crawler (v3.4.5): Loading from cache
+  - Installing symfony/browser-kit (v3.4.5): Loading from cache
+  - Installing fabpot/goutte (v3.2.2): Loading from cache
+  - Installing behat/mink-browserkit-driver (v1.3.2): Loading from cache
+  - Installing behat/mink-goutte-driver (v1.2.1): Loading from cache
+  - Installing drupal/config_filter (1.1.0): Loading from cache
+  - Installing drupal/config_split (1.3.0): Loading from cache
+  - Installing drupal/devel (1.2.0): Loading from cache
+  - Installing drupal/workbench_moderation (1.2.0): Loading from cache
+  - Applying patches for drupal/workbench_moderation
+    https://www.drupal.org/files/issues/2668006-2.patch (2668006 - Provide logical access control for when IPE should be applied to moderated nodes)
+    https://www.drupal.org/files/issues/2847078-6.patch (2847078 - Revision tracker's dynamic table creation can break Views)
+    https://www.drupal.org/files/issues/workbench_moderation-quickedit-support-2749503-6.patch (2749503 - Add basic support for Quick Edit)
+
+  - Installing drupal/wbm2cm (dev-2.x 6300a32): Cloning 6300a32370 from cache
+  - Installing drupal/views_infinite_scroll (1.5.0): Loading from cache
+  - Installing drupal/video_embed_field (2.0.0-alpha2): Loading from cache
+  - Installing drupal/token (1.1.0): Loading from cache
+  - Installing defuse/php-encryption (v2.1.0): Loading from cache
+  - Installing lcobucci/jwt (3.2.2): Loading from cache
+  - Installing league/event (2.1.2): Loading from cache
+  - Installing league/oauth2-server (6.1.1): Loading from cache
+  - Installing drupal/consumers (1.0.0-beta2): Loading from cache
+  - Installing drupal/simple_oauth (3.3.0): Loading from cache
+  - Applying patches for drupal/simple_oauth
+    https://www.drupal.org/files/issues/2925369-2.patch (2925369 - TokenAuthUser does not fulfill RevisionableInterface, causes fatals)
+
+  - Installing drupal/search_api (1.7.0): Loading from cache
+  - Installing drupal/inline_entity_form (1.0.0-beta1): Loading from cache
+  - Installing drupal/scheduled_updates (1.0.0-alpha6): Loading from cache
+  - Installing drupal/ctools (3.0.0): Loading from cache
+  - Installing drupal/pathauto (1.1.0): Loading from cache
+  - Installing drupal/panels (4.2.0): Loading from cache
+  - Applying patches for drupal/panels
+    https://www.drupal.org/files/issues/panels-ipe-2878684-3.patch (2878684 - Use String.match to correlate regions when switching Layouts in Panels IPE)
+    https://www.drupal.org/files/issues/panels-ipe-propogate-errors-2825034-5.patch (2825034 - Form error messages do not appear in IPE)
+    https://www.drupal.org/files/issues/2908897-2.patch (2908897 - CategoryView leaves AJAX request marked active)
+    https://www.drupal.org/files/issues/2913353-2.patch (2913353 - IPE attaches behaviors a bit too quickly)
+    https://www.drupal.org/files/issues/panels-ipe-date-field-2825028-10.patch (2825028 - AJAX error creating and placing blocks with date fields in IPE)
+
+  - Installing drupal/panelizer (4.0.0): Loading from cache
+  - Applying patches for drupal/panelizer
+    https://www.drupal.org/files/issues/2908917-2.patch (2908917 - SaveTabView blindly assumes a Revert tab exists)
+
+  - Installing drupal/schemata (1.0.0-alpha2): Loading from cache
+  - Installing drupal/openapi (1.0.0-alpha1): Loading from cache
+  - Installing drupal/metatag (1.4.0): Loading from cache
+  - Installing j7mbo/twitter-api-php (1.0.6): Loading from cache
+  - Installing drupal/media_entity_twitter (2.0.0-alpha2): Loading from cache
+  - Installing drupal/media_entity_instagram (2.0.0-alpha1): Loading from cache
+  - Applying patches for drupal/media_entity_instagram
+    https://www.drupal.org/files/issues/2917454-2.patch (2917454 - Field formatter test is broken)
+
+  - Installing drupal/entity (1.0.0-beta1): Loading from cache
+  - Installing drupal/media_entity (2.0.0-alpha2): Loading from cache
+  - Applying patches for drupal/media_entity
+    https://www.drupal.org/files/issues/2918172-5.patch (2918172 - Media Entity upgrade -> core fails on absent column revision_uid)
+
+  - Installing drupal/media_entity_image (dev-1.x 3264d04): Cloning 3264d04a39 from cache
+  - Installing drupal/media_entity_document (dev-1.x b98ec72): Cloning b98ec72e30 from cache
+  - Installing drupal/jsonapi (1.10.0): Loading from cache
+  - Installing drupal/crop (2.0.0-beta1): Loading from cache
+  - Applying patches for drupal/crop
+    https://www.drupal.org/files/issues/2918441-beta1-packaged-info-file.patch (Make Crop API compatible with core Media)
+
+  - Installing drupal/image_widget_crop (2.1.0): Loading from cache
+  - Installing drupal/config_update (1.5.0): Loading from cache
+  - Installing drupal/features (3.7.0): Loading from cache
+  - Installing drupal/embed (1.0.0): Loading from cache
+  - Installing drupal/entity_embed (1.0.0-beta2): Loading from cache
+  - Applying patches for drupal/entity_embed
+    https://www.drupal.org/files/issues/2832504-2.patch (2832504 - Send the CKEditor instance ID to the embed.preview route)
+
+  - Installing drupal/entity_browser (2.0.0-alpha2): Loading from cache
+  - Applying patches for drupal/entity_browser
+    https://www.drupal.org/files/issues/entity-browser-view-context-2865928-14.patch (2865928 - The View widget should filter based on field settings)
+    https://www.drupal.org/files/issues/2877751-17.patch (2877751 - Inform users how many items they can add to a field that uses an entity browser)
+
+  - Installing drupal/entity_block (1.0.0-alpha2): Loading from cache
+  - Applying patches for drupal/entity_block
+    https://www.drupal.org/files/issues/entity_block-view-builder-class.patch (2844068 - Create derivatives for any viewable entity.)
+    https://www.drupal.org/files/issues/2846004-2.patch (2846004 - Entity Block does not perform any access control)
+
+  - Installing drupal/dropzonejs (2.0.0-alpha3): Loading from cache
+  - Installing sunra/php-simple-html-dom-parser (v1.5.2): Loading from cache
+  - Installing ezyang/htmlpurifier (v4.10.0): Loading from cache
+  - Installing caxy/php-htmldiff (v0.1.6): Loading from cache
+  - Installing mkalkbrenner/php-htmldiff-advanced (0.0.8): Loading from cache
+  - Installing drupal/diff (1.0.0-rc1): Loading from cache
+  - Installing drupal/contact_storage (1.0.0-beta9): Loading from cache
+  - Installing drupal/acquia_connector (1.14.0): Loading from cache
+  - Installing bower-asset/dropzone (v5.1.1): Loading from cache
+  - Installing bower-asset/cropper (v2.3.4): Loading from cache
+  - Installing acquia/lightning (2.2.8): Loading from cache
+  - Installing drupal/cog (1.13.0): Loading from cache
+  - Installing drupal/qa_accounts (1.0.0-alpha1): Loading from cache
+  - Installing drupal/memcache (2.0.0-alpha5): Loading from cache
+  - Installing drupal/seckit (1.0.0-alpha2): Loading from cache
+  - Installing drupal/security_review (dev-1.x 9a3bdf8): Cloning 9a3bdf82a6 from cache
+  - Installing drupal/shield (1.2.0): Loading from cache
+  - Installing bex/behat-extension-driver-locator (1.0.2): Loading from cache
+  - Installing behat/mink-extension (2.3.1): Loading from cache
+  - Installing bex/behat-screenshot (1.2.6): Loading from cache
+  - Installing drupal/drupal-driver (v1.4.0): Loading from cache
+  - Installing instaclick/php-webdriver (1.4.5): Loading from cache
+  - Installing behat/mink-selenium2-driver (v1.3.1): Loading from cache
+  - Installing drupal/drupal-extension (v3.4.1): Loading from cache
+  - Installing se/selenium-server-standalone (v2.53.1): Loading from cache
+symfony/dependency-injection suggests installing symfony/expression-language (For using expressions in service container configuration)
+symfony/dependency-injection suggests installing symfony/proxy-manager-bridge (Generate service proxies to lazy load them)
+symfony/class-loader suggests installing symfony/polyfill-apcu (For using ApcClassLoader on HHVM)
+behat/behat suggests installing behat/symfony2-extension (for integration with Symfony2 web framework)
+behat/behat suggests installing behat/yii-extension (for integration with Yii web framework)
+behat/mink suggests installing behat/mink-zombie-driver (fast and JS-enabled headless driver for any app (requires node.js))
+zendframework/zend-feed suggests installing zendframework/zend-cache (Zend\Cache component, for optionally caching feeds between requests)
+zendframework/zend-feed suggests installing zendframework/zend-db (Zend\Db component, for use with PubSubHubbub)
+zendframework/zend-feed suggests installing zendframework/zend-http (Zend\Http for PubSubHubbub, and optionally for use with Zend\Feed\Reader)
+zendframework/zend-feed suggests installing zendframework/zend-servicemanager (Zend\ServiceManager component, for easily extending ExtensionManager implementations)
+zendframework/zend-feed suggests installing zendframework/zend-validator (Zend\Validator component, for validating email addresses used in Atom feeds and entries when using the Writer subcomponent)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+easyrdf/easyrdf suggests installing ml/json-ld (~1.0)
+symfony/validator suggests installing psr/cache-implementation (For using the metadata cache.)
+symfony/validator suggests installing symfony/expression-language (For using the Expression validator)
+symfony/validator suggests installing symfony/intl ()
+symfony/serializer suggests installing psr/cache-implementation (For using the metadata cache.)
+symfony/serializer suggests installing symfony/property-info (To deserialize relations.)
+symfony/serializer suggests installing symfony/property-access (For using the ObjectNormalizer.)
+lcobucci/jwt suggests installing mdanter/ecc (Required to use Elliptic Curves based algorithms.)
+drupal/dropzonejs suggests installing enyo/dropzone (Required to user drupal/dropzonejs. Dropzone is an easy to use drag'n'drop library.)
+bex/behat-screenshot suggests installing bex/behat-screenshot-image-driver-uploadpie (Allows to upload the screenshot to uploadpie.com)
+bex/behat-screenshot suggests installing bex/behat-screenshot-image-driver-img42 (Allows to upload the screenshot to img42.com)
+bex/behat-screenshot suggests installing bex/behat-screenshot-image-driver-unsee (Allows to upload the screenshot to unsee.cc)
+Writing lock file
+Generating autoload files
+You are using Drupal packages that are not supported by the Drupal Security Team!
+  - drupal/wbm2cm:dev-2.x: Project has not opted into security advisory coverage!
+  - drupal/video_embed_field:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/consumers:1.0.0.0-beta2: Beta releases are not covered by Drupal security advisories.
+  - drupal/inline_entity_form:1.0.0.0-beta1: Beta releases are not covered by Drupal security advisories.
+  - drupal/scheduled_updates:1.0.0.0-alpha6: Project has not opted into security advisory coverage!
+  - drupal/schemata:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/schemata_json_schema:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/openapi:1.0.0.0-alpha1: Project has not opted into security advisory coverage!
+  - drupal/media_entity_twitter:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/media_entity_instagram:2.0.0.0-alpha1: Alpha releases are not covered by Drupal security advisories.
+  - drupal/entity:1.0.0.0-beta1: Beta releases are not covered by Drupal security advisories.
+  - drupal/media_entity:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/media_entity_image:dev-1.x: Dev releases are not covered by Drupal security advisories.
+  - drupal/media_entity_document:dev-1.x: Dev releases are not covered by Drupal security advisories.
+  - drupal/crop:2.0.0.0-beta1: Beta releases are not covered by Drupal security advisories.
+  - drupal/entity_embed:1.0.0.0-beta2: Beta releases are not covered by Drupal security advisories.
+  - drupal/entity_browser:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/entity_block:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/dropzonejs:2.0.0.0-alpha3: Project has not opted into security advisory coverage!
+  - drupal/diff:1.0.0.0-RC1: RC releases are not covered by Drupal security advisories.
+  - drupal/contact_storage:1.0.0.0-beta9: Beta releases are not covered by Drupal security advisories.
+  - drupal/qa_accounts:1.0.0.0-alpha1: Project has not opted into security advisory coverage!
+  - drupal/memcache:2.0.0.0-alpha5: Alpha releases are not covered by Drupal security advisories.
+  - drupal/seckit:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/security_review:dev-1.x: Dev releases are not covered by Drupal security advisories.
+See https://www.drupal.org/security-advisory-policy for more information.
+PHP CodeSniffer Config installed_paths set to ../../drupal/coder/coder_sniffer/
+Downloading (100%)Downloading (100%)PHP CodeSniffer Config installed_paths set to ../../drupal/coder/coder_sniffer/
+Updating BLT templated files...
+ > blt update --ansi -y
+Copying files from BLT's template into your project...
+Merging BLT's project.yml template with your project's blt/project.yml...
+Removing deprecated files and directories...
+> install-alias
+The BLT alias is already installed and up to date.
+[ExecStack] Done in 05:05
+> examples:init
+Example commands and hooks were copied to your repository root.
+[ExecStack] git init && git add -A && git commit -m 'Initial commit.'
+> install-alias
+The BLT alias is already installed and up to date.
+
+__________.____  ___________
+\______   \    | \__    ___/
+ |    |  _/    |   |    |
+ |    |   \    |___|    |
+ |______  /_______ \____|
+        \/        \/
+
+
+                                                                        
+ Your new BLT-based project has been created in /home/gurubaran/summer. 
+                                                                        
+Please continue by following the "Creating a new project with BLT" instructions:
+http://blt.readthedocs.io/en/8.x/readme/creating-new-project/
+gurubaran@gurubaran:~$ blt setup:settings
+You must run this command from within a BLT-generated project repository.
+gurubaran@gurubaran:~$ cd summer
+gurubaran@gurubaran:~/summer$ blt setup:settings
+gurubaran@gurubaran:~/summer$ blt setup
+Setting up local environment for site 'default' using drush alias @
+> setup:build
+>> setup:behat
+Generating Behat configuration files...
+>> setup:composer:install
+Gathering patches for root package.
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Nothing to install or update
+Generating autoload files
+>> setup:git-hooks
+Installing pre-commit git hook...
+Installing commit-msg git hook...
+>> setup:settings
+>> frontend
+> frontend:setup
+> frontend:build
+> setup:hash-salt
+Generating hash salt...
+[File\Write] Writing to /home/gurubaran/summer/salt.txt.
+> setup:drupal:install
+>> internal:drupal:install
+[Acquia\Blt\Robo\Tasks\DrushTask] Running /home/gurubaran/summer/vendor/bin/drush site-install standard install_configure_form.update_status_module='array(FALSE,FALSE)' install_configure_form.enable_update_status_module=NULL --site-name='BLTed 8' --site-mail=no-reply@acquia.com --account-name=GGWUxHi6qc --account-mail=no-reply@acquia.com --locale=en --config-dir=../config/default --uri=default --yes --verbose in /home/gurubaran/summer/docroot
+Configuration import directory ../config/default does not contain any[warning]
+configuration; will skip import.
+Executing: mysql --defaults-extra-file=/tmp/drush_prgrTP --database=summer --host=localhost --port=3306 --silent  < /tmp/drush_WIlGxT > /dev/null
+You are about to DROP all tables in your 'summer' database. Do you want to continue? (y/n): y
+Sites directory /home/gurubaran/summer/docroot/sites/default already    [notice]
+exists - proceeding.
+Executing: mysql --defaults-extra-file=/tmp/drush_c2t5GI --database=summer --host=localhost --port=3306 --silent  < /tmp/drush_hrIdiM > /dev/null
+Executing: mysql --defaults-extra-file=/tmp/drush_QoLgBB --database=summer --host=localhost --port=3306 --silent  < /tmp/drush_dj378E
+Starting Drupal installation. This takes a while. Consider using the [ok]
+--notify global option.
+Installation complete.  User name: GGWUxHi6qc  User password:        [ok]
+CR3kndATbr
+Congratulations, you installed Drupal!                               [status]
+Command dispatch complete                                               [notice]
+[Acquia\Blt\Robo\Tasks\DrushTask] Done in 03:44
+>> setup:config-import
+[warning] BLT will NOT import configuration, /home/gurubaran/summer/docroot/../config/default/core.extension.yml was not found.
+> setup:toggle-modules
+[Acquia\Blt\Robo\Tasks\DrushTask] Running /home/gurubaran/summer/vendor/bin/drush pm-enable dblog devel seckit views_ui --uri=default --yes in /home/gurubaran/summer/docroot
+dblog is already enabled.                                            [ok]
+views_ui is already enabled.                                         [ok]
+The following extensions will be enabled: devel, seckit
+Do you really want to continue? (y/n): y
+devel was enabled successfully.                                      [ok]
+devel defines the following permissions: access devel information, execute php code, switch users
+seckit was enabled successfully.                                     [ok]
+seckit defines the following permissions: administer seckit
+[Acquia\Blt\Robo\Tasks\DrushTask] Done in 13.956s
+[Acquia\Blt\Robo\Tasks\DrushTask] Running /home/gurubaran/summer/vendor/bin/drush pm-uninstall acsf acquia_connector shield --uri=default --yes in /home/gurubaran/summer/docroot
+Extension acsf was not found and will not be uninstalled.            [warning]
+acquia_connector is already uninstalled.                             [ok]
+shield is already uninstalled.                                       [ok]
+There were no extensions that could be uninstalled.                  [ok]
+[Acquia\Blt\Robo\Tasks\DrushTask] Done in 1.654s
+> install-alias
+The BLT alias is already installed and up to date.
+gurubaran@gurubaran:~/summer$ /home/gurubaran/summer/vendor/bin/drush status
+ PHP executable         :  /usr/bin/php                                        
+ PHP configuration      :  /etc/php/7.1/cli/php.ini                            
+ PHP OS                 :  Linux                                               
+ Drush script           :  /home/gurubaran/summer/vendor/drush/drush/drush.php 
+ Drush version          :  8.1.16                                              
+ Drush temp directory   :  /tmp                                                
+ Drush configuration    :                                                      
+ Drush alias files      :                                                      
+
+gurubaran@gurubaran:~/summer$ cd docroot
+gurubaran@gurubaran:~/summer/docroot$ /home/gurubaran/summer/vendor/bin/drush status
+ Drupal version                :  8.4.5                                         
+ Site URI                      :  http://local.summer.com                       
+ Database driver               :  mysql                                         
+ Database hostname             :  localhost                                     
+ Database port                 :  3306                                          
+ Database username             :  root                                          
+ Database name                 :  summer                                        
+ Database                      :  Connected                                     
+ Drupal bootstrap              :  Successful                                    
+ Drupal user                   :                                                
+ Default theme                 :  bartik                                        
+ Administration theme          :  seven                                         
+ PHP executable                :  /usr/bin/php                                  
+ PHP configuration             :  /etc/php/7.1/cli/php.ini                      
+ PHP OS                        :  Linux                                         
+ Drush script                  :  /home/gurubaran/summer/vendor/drush/drush/dru 
+                                  sh.php                                        
+ Drush version                 :  8.1.16                                        
+ Drush temp directory          :  /tmp                                          
+ Drush configuration           :  /home/gurubaran/summer/drush/drushrc.php      
+ Drush alias files             :  /home/gurubaran/summer/docroot/../drush/site- 
+                                  aliases/example.local.aliases.drushrc.php     
+                                  /home/gurubaran/summer/docroot/../drush/site- 
+                                  aliases/local.aliases.drushrc.php             
+                                  /home/gurubaran/summer/docroot/../drush/site- 
+                                  aliases/aliases.drushrc.php                   
+                                  /home/gurubaran/summer/docroot/../drush/site- 
+                                  aliases/example.acsf.aliases.drushrc.php      
+ Install profile               :  standard                                      
+ Drupal root                   :  /home/gurubaran/summer/docroot                
+ Drupal Settings File          :  sites/default/settings.php                    
+ Site path                     :  sites/default                                 
+ File directory path           :  sites/default/files                           
+ Private file directory path   :  /home/gurubaran/summer/files-private          
+ Temporary file directory      :  /tmp                                          
+ path                                                                           
+ Sync config path              :  /home/gurubaran/summer/config/default         
+
+gurubaran@gurubaran:~/summer/docroot$ /home/gurubaran/summer/vendor/bin/drush @summer.local uli
+Could not find the alias @summer.local                               [error]
+gurubaran@gurubaran:~/summer/docroot$ /home/gurubaran/summer/vendor/bin/drush uli
+local.summer.com does not appear to be a resolvable hostname or IP,  [warning]
+not starting browser. You may need to use the --uri option in your
+command or site alias to indicate the correct URL of this site.
+http://local.summer.com/user/reset/1/1520273091/a60bFzFXojXqGhqOkYQ7oFBGpcizlADI78RJ0rdyQpA/login
+gurubaran@gurubaran:~/summer/docroot$ sudo cp /etc/apache2/sites-available/local.haanji.com.conf /etc/apache2/sites-available/local.summer.com.conf
+[sudo] password for gurubaran: 
+gurubaran@gurubaran:~/summer/docroot$ sudo nano /etc/apache2/sites-available/local.summer.com.conf
+gurubaran@gurubaran:~/summer/docroot$ sudo a2ensite local.summer.com.conf
+Enabling site local.summer.com.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+gurubaran@gurubaran:~/summer/docroot$ systemctl1 reload apache2
+No command 'systemctl1' found, did you mean:
+ Command 'systemctl' from package 'systemd' (main)
+systemctl1: command not found
+gurubaran@gurubaran:~/summer/docroot$ systemctl reload apache2
+gurubaran@gurubaran:~/summer/docroot$ /home/gurubaran/summer/vendor/bin/drush uli
+local.summer.com does not appear to be a resolvable hostname or IP,  [warning]
+not starting browser. You may need to use the --uri option in your
+command or site alias to indicate the correct URL of this site.
+http://local.summer.com/user/reset/1/1520273486/lTViLrlIDNdUHNGHCrhTn2dvgFnx7Ij0vUSdK9IeJQ4/login
+gurubaran@gurubaran:~/summer/docroot$ sudo nano /etc/hosts
+gurubaran@gurubaran:~/summer/docroot$ /home/gurubaran/summer/vendor/bin/drush uli
+http://local.summer.com/user/reset/1/1520273583/oNZ9w3ewaiS_B-ajI4Xz1vybPtZeT4iVNIRupAiAXNw/login
+gurubaran@gurubaran:~/summer/docroot$ git add -A
+gurubaran@gurubaran:~/summer/docroot$ git commit -m 'summer first commit'
+Executing .git/hooks/pre-commit...
+> validate:phpcs
+[ExecStack] /home/gurubaran/summer/vendor/bin/phpcs
+[ExecStack] Running /home/gurubaran/summer/vendor/bin/phpcs in /home/gurubaran/summer
+........
+
+Time: 184ms; Memory: 6Mb
+
+[ExecStack] Done in 0.316s
+> validate:twig:files
+Linting twig files...
+> validate:yaml:files
+Linting YAML files...
+Your local code has passed git pre-commit validation.
+Executing .git/hooks/commit-msg...
+Validating commit message syntax...
+[error]  Invalid commit message! 
+Commit messages must:
+* Contain the project prefix followed by a hyphen
+* Contain a ticket number followed by a colon and a space
+* Be at least 15 characters long and end with a period.
+Valid example: BLT-135: Added the new picture field to the article feature.
+gurubaran@gurubaran:~/summer/docroot$ git commit -m 'BLT-000: summer first commit by gurubaran.'
+Executing .git/hooks/pre-commit...
+> validate:phpcs
+[ExecStack] /home/gurubaran/summer/vendor/bin/phpcs
+[ExecStack] Running /home/gurubaran/summer/vendor/bin/phpcs in /home/gurubaran/summer
+........
+
+Time: 183ms; Memory: 6Mb
+
+[ExecStack] Done in 0.312s
+> validate:twig:files
+Linting twig files...
+> validate:yaml:files
+Linting YAML files...
+Your local code has passed git pre-commit validation.
+Executing .git/hooks/commit-msg...
+Validating commit message syntax...
+[master 1178689] BLT-000: summer first commit by gurubaran.
+ 6 files changed, 176 insertions(+), 2 deletions(-)
+ create mode 100644 config/default/.htaccess
+ create mode 100644 docroot/sites/default/default.local.drushrc.php
+ create mode 100644 docroot/sites/default/settings/default.local.settings.php
+ create mode 100644 salt.txt
+gurubaran@gurubaran:~/summer/docroot$ git status
+On branch master
+nothing to commit, working tree clean
+gurubaran@gurubaran:~/summer/docroot$ git remote add origin https://github.com/mareaswa/summer.git
+gurubaran@gurubaran:~/summer/docroot$ git status
+On branch master
+nothing to commit, working tree clean
+gurubaran@gurubaran:~/summer/docroot$ git branch -v
+* master 1178689 BLT-000: summer first commit by gurubaran.
+gurubaran@gurubaran:~/summer/docroot$ git remote -v
+origin	https://github.com/mareaswa/summer.git (fetch)
+origin	https://github.com/mareaswa/summer.git (push)
+gurubaran@gurubaran:~/summer/docroot$ git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+gurubaran@gurubaran:~/summer/docroot$ git push --set-upstream origin master
+Username for 'https://github.com': mareaswa
+Password for 'https://mareaswa@github.com': 
+Counting objects: 95, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (80/80), done.
+Writing objects: 100% (95/95), 90.75 KiB | 1.44 MiB/s, done.
+Total 95 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/mareaswa/summer.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+gurubaran@gurubaran:~/summer/docroot$ blt deploy
+Typically, you would only create a tag if you currently have a tag checked out on your source repository.
+ Would you like to create a tag? (y/n) y
+ Enter a valid commit message [BLT-000: summer first commit by gurubaran.] tag summer
+ Enter the tag name for the deployment artifact. E.g., 1.0.0-build 1.0.0
+Tag is set to 1.0.0.
+Preparing artifact directory...
+Global .gitignore file is being disabled for this repository to prevent unexpected behavior.
+PHP Notice:  Array to string conversion in /home/gurubaran/summer/vendor/acquia/blt/src/Robo/Commands/Deploy/DeployCommand.php on line 261
+Fetching from git remote Array
+PHP Warning:  md5() expects parameter 1 to be string, array given in /home/gurubaran/summer/vendor/acquia/blt/src/Robo/Commands/Deploy/DeployCommand.php on line 263
+PHP Notice:  Array to string conversion in /home/gurubaran/summer/vendor/acquia/blt/src/Robo/Commands/Deploy/DeployCommand.php on line 268
+Generating build artifact...
+For more detailed output, use the -v flag.
+> frontend
+> frontend:setup
+> frontend:build
+> setup:hash-salt
+Hash salt already exists.
+Combining exclusions from deploy.deploy-exclude-additions and deploy.deploy-exclude files...
+Rsyncing files from source repo into the build artifact...
+Rebuilding composer dependencies for production...
+[ExecStack] composer install --no-dev --no-interaction --optimize-autoloader
+[ExecStack] Running composer install --no-dev --no-interaction --optimize-autoloader in /home/gurubaran/summer/deploy
+Loading composer repositories with package information
+Installing dependencies from lock file
+Package operations: 156 installs, 0 updates, 0 removals
+  - Installing wikimedia/composer-merge-plugin (v1.4.1): Loading from cache
+  - Installing composer/installers (v1.5.0): Loading from cache
+  - Installing grasmash/drupal-security-warning (1.1.1): Loading from cache
+  - Installing cweagans/composer-patches (1.6.4): Loading from cache
+No patches supplied.
+Gathering patches for dependencies. This might take a minute.
+  - Installing tivie/php-os-detector (1.1.0): Loading from cache
+  - Installing symfony/yaml (v3.2.14): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.7.0): Loading from cache
+  - Installing psr/log (1.0.2): Loading from cache
+  - Installing symfony/debug (v3.4.5): Loading from cache
+  - Installing symfony/console (v3.2.14): Loading from cache
+  - Installing squizlabs/php_codesniffer (2.9.1): Loading from cache
+  - Installing sebastian/version (1.0.6): Loading from cache
+  - Installing sebastian/global-state (1.1.1): Loading from cache
+  - Installing sebastian/recursion-context (1.0.5): Loading from cache
+  - Installing sebastian/exporter (1.2.2): Loading from cache
+  - Installing sebastian/environment (1.3.8): Loading from cache
+  - Installing sebastian/diff (1.4.3): Loading from cache
+  - Installing sebastian/comparator (1.2.4): Loading from cache
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing doctrine/instantiator (1.1.0): Loading from cache
+  - Installing phpunit/phpunit-mock-objects (2.3.8): Loading from cache
+  - Installing phpunit/php-timer (1.0.9): Loading from cache
+  - Installing phpunit/php-file-iterator (1.4.5): Loading from cache
+  - Installing phpunit/php-token-stream (1.4.12): Loading from cache
+  - Installing phpunit/php-code-coverage (2.2.4): Loading from cache
+  - Installing webmozart/assert (1.3.0): Loading from cache
+  - Installing phpdocumentor/reflection-common (1.0.1): Loading from cache
+  - Installing phpdocumentor/type-resolver (0.4.0): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Loading from cache
+  - Installing phpspec/prophecy (1.7.5): Loading from cache
+  - Installing phpunit/phpunit (4.8.36): Loading from cache
+  - Installing oomphinc/composer-installers-extender (v1.1.2): Loading from cache
+  - Installing dflydev/dot-access-data (v1.1.0): Loading from cache
+  - Installing grasmash/yaml-expander (1.4.0): Loading from cache
+  - Installing symfony/filesystem (v3.4.5): Loading from cache
+  - Installing grasmash/yaml-cli (1.0.3): Loading from cache
+  - Installing webmozart/path-util (2.3.0): Loading from cache
+  - Installing symfony/var-dumper (v3.4.5): Loading from cache
+  - Installing symfony/finder (v3.4.5): Loading from cache
+  - Installing symfony/event-dispatcher (v3.2.14): Loading from cache
+  - Installing nikic/php-parser (v3.1.5): Loading from cache
+  - Installing jakub-onderka/php-console-color (0.1): Loading from cache
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache
+  - Installing psy/psysh (v0.8.17): Loading from cache
+  - Installing pear/console_table (v1.3.1): Loading from cache
+  - Installing consolidation/output-formatters (3.1.13): Loading from cache
+  - Installing consolidation/annotated-command (2.8.3): Loading from cache
+  - Installing drush/drush (8.1.16): Loading from cache
+  - Installing drupal/coder (8.2.12): Cloning 984c54a7b1 from cache
+  - Installing doctrine/inflector (v1.1.0): Loading from cache
+  - Installing doctrine/lexer (v1.0.1): Loading from cache
+  - Installing doctrine/collections (v1.5.0): Loading from cache
+  - Installing doctrine/cache (v1.7.1): Loading from cache
+  - Installing doctrine/annotations (v1.6.0): Loading from cache
+  - Installing doctrine/common (v2.8.1): Loading from cache
+  - Installing dealerdirect/phpcodesniffer-composer-installer (v0.4.4): Loading from cache
+  - Installing symfony/process (v3.2.14): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing container-interop/container-interop (1.2.0): Loading from cache
+  - Installing league/container (2.4.1): Loading from cache
+  - Installing consolidation/log (1.0.5): Loading from cache
+  - Installing grasmash/expander (1.0.0): Loading from cache
+  - Installing consolidation/config (1.0.9): Loading from cache
+  - Installing consolidation/robo (1.2.2): Loading from cache
+  - Installing composer/semver (1.4.2): Loading from cache
+  - Installing twig/twig (v1.35.2): Loading from cache
+  - Installing asm89/twig-lint (1.0.2): Loading from cache
+  - Installing acquia/blt (8.9.12): Loading from cache
+  - Installing drupal-composer/drupal-scaffold (2.4.0): Loading from cache
+  - Installing zendframework/zend-stdlib (3.1.0): Loading from cache
+  - Installing zendframework/zend-escaper (2.5.2): Loading from cache
+  - Installing zendframework/zend-feed (2.9.0): Loading from cache
+  - Installing psr/http-message (1.0.1): Loading from cache
+  - Installing zendframework/zend-diactoros (1.7.1): Loading from cache
+  - Installing symfony/translation (v3.2.14): Loading from cache
+  - Installing symfony/validator (v3.2.14): Loading from cache
+  - Installing symfony/serializer (v3.2.14): Loading from cache
+  - Installing symfony/routing (v3.2.14): Loading from cache
+  - Installing symfony/http-foundation (v3.2.14): Loading from cache
+  - Installing symfony/psr-http-message-bridge (v1.0.2): Loading from cache
+  - Installing symfony/polyfill-iconv (v1.7.0): Loading from cache
+  - Installing symfony/http-kernel (v3.2.14): Loading from cache
+  - Installing symfony/dependency-injection (v3.2.14): Loading from cache
+  - Installing symfony/class-loader (v3.2.14): Loading from cache
+  - Installing symfony-cmf/routing (1.4.1): Loading from cache
+  - Installing stack/builder (v1.0.5): Loading from cache
+  - Installing paragonie/random_compat (v2.0.11): Loading from cache
+  - Installing masterminds/html5 (2.3.0): Loading from cache
+  - Installing guzzlehttp/psr7 (1.4.2): Loading from cache
+  - Installing guzzlehttp/promises (v1.3.1): Loading from cache
+  - Installing guzzlehttp/guzzle (6.3.0): Loading from cache
+  - Installing egulias/email-validator (1.2.14): Loading from cache
+  - Installing easyrdf/easyrdf (0.9.1): Loading from cache
+  - Installing asm89/stack-cors (1.2.0): Loading from cache
+  - Installing drupal/core (8.4.5): Loading from cache
+  - Applying patches for drupal/core
+    https://www.drupal.org/files/issues/1356276-408--8.4.4.patch (1356276 - Allow profiles to provide a base/parent profile and load them in the correct order)
+    https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch (2880374 - Experimental modules should not have warnings after being installed)
+    https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch (2869592 - Disabled update module shouldn't produce a status report warning)
+    https://www.drupal.org/files/issues/2885441-2.patch (2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer)
+    https://www.drupal.org/files/issues/2883813-27.patch (2883813 - Move File/Image media type into Standard once Media is stable)
+    https://www.drupal.org/files/issues/2877383-23.patch (2877383 - Add action support to Media module)
+    https://www.drupal.org/files/issues/2862041-229.patch (2862041 - Provide useful Views filters for Content Moderation State fields)
+    https://www.drupal.org/files/issues/2815221-69-8.4.x.patch (2815221 - Add quickedit to the latest-revision route)
+
+  - Installing drupal/workbench_moderation (1.2.0): Loading from cache
+  - Applying patches for drupal/workbench_moderation
+    https://www.drupal.org/files/issues/2668006-2.patch (2668006 - Provide logical access control for when IPE should be applied to moderated nodes)
+    https://www.drupal.org/files/issues/2847078-6.patch (2847078 - Revision tracker's dynamic table creation can break Views)
+    https://www.drupal.org/files/issues/workbench_moderation-quickedit-support-2749503-6.patch (2749503 - Add basic support for Quick Edit)
+
+  - Installing drupal/wbm2cm (dev-2.x 6300a32): Cloning 6300a32370 from cache
+  - Installing drupal/views_infinite_scroll (1.5.0): Loading from cache
+  - Installing drupal/video_embed_field (2.0.0-alpha2): Loading from cache
+  - Installing drupal/token (1.1.0): Loading from cache
+  - Installing league/event (2.1.2): Loading from cache
+  - Installing lcobucci/jwt (3.2.2): Loading from cache
+  - Installing defuse/php-encryption (v2.1.0): Loading from cache
+  - Installing league/oauth2-server (6.1.1): Loading from cache
+  - Installing drupal/consumers (1.0.0-beta2): Loading from cache
+  - Installing drupal/simple_oauth (3.3.0): Loading from cache
+  - Applying patches for drupal/simple_oauth
+    https://www.drupal.org/files/issues/2925369-2.patch (2925369 - TokenAuthUser does not fulfill RevisionableInterface, causes fatals)
+
+  - Installing drupal/search_api (1.7.0): Loading from cache
+  - Installing drupal/inline_entity_form (1.0.0-beta1): Loading from cache
+  - Installing drupal/scheduled_updates (1.0.0-alpha6): Loading from cache
+  - Installing drupal/ctools (3.0.0): Loading from cache
+  - Installing drupal/pathauto (1.1.0): Loading from cache
+  - Installing drupal/panels (4.2.0): Loading from cache
+  - Applying patches for drupal/panels
+    https://www.drupal.org/files/issues/panels-ipe-2878684-3.patch (2878684 - Use String.match to correlate regions when switching Layouts in Panels IPE)
+    https://www.drupal.org/files/issues/panels-ipe-propogate-errors-2825034-5.patch (2825034 - Form error messages do not appear in IPE)
+    https://www.drupal.org/files/issues/2908897-2.patch (2908897 - CategoryView leaves AJAX request marked active)
+    https://www.drupal.org/files/issues/2913353-2.patch (2913353 - IPE attaches behaviors a bit too quickly)
+    https://www.drupal.org/files/issues/panels-ipe-date-field-2825028-10.patch (2825028 - AJAX error creating and placing blocks with date fields in IPE)
+
+  - Installing drupal/panelizer (4.0.0): Loading from cache
+  - Applying patches for drupal/panelizer
+    https://www.drupal.org/files/issues/2908917-2.patch (2908917 - SaveTabView blindly assumes a Revert tab exists)
+
+  - Installing drupal/schemata (1.0.0-alpha2): Loading from cache
+  - Installing drupal/openapi (1.0.0-alpha1): Loading from cache
+  - Installing drupal/metatag (1.4.0): Loading from cache
+  - Installing j7mbo/twitter-api-php (1.0.6): Loading from cache
+  - Installing drupal/media_entity_twitter (2.0.0-alpha2): Loading from cache
+  - Installing drupal/media_entity_instagram (2.0.0-alpha1): Loading from cache
+  - Applying patches for drupal/media_entity_instagram
+    https://www.drupal.org/files/issues/2917454-2.patch (2917454 - Field formatter test is broken)
+
+  - Installing drupal/entity (1.0.0-beta1): Loading from cache
+  - Installing drupal/media_entity (2.0.0-alpha2): Loading from cache
+  - Applying patches for drupal/media_entity
+    https://www.drupal.org/files/issues/2918172-5.patch (2918172 - Media Entity upgrade -> core fails on absent column revision_uid)
+
+  - Installing drupal/media_entity_image (dev-1.x 3264d04): Cloning 3264d04a39 from cache
+  - Installing drupal/media_entity_document (dev-1.x b98ec72): Cloning b98ec72e30 from cache
+  - Installing drupal/jsonapi (1.10.0): Loading from cache
+  - Installing drupal/crop (2.0.0-beta1): Loading from cache
+  - Applying patches for drupal/crop
+    https://www.drupal.org/files/issues/2918441-beta1-packaged-info-file.patch (Make Crop API compatible with core Media)
+
+  - Installing drupal/image_widget_crop (2.1.0): Loading from cache
+  - Installing drupal/config_update (1.5.0): Loading from cache
+  - Installing drupal/features (3.7.0): Loading from cache
+  - Installing drupal/embed (1.0.0): Loading from cache
+  - Installing drupal/entity_embed (1.0.0-beta2): Loading from cache
+  - Applying patches for drupal/entity_embed
+    https://www.drupal.org/files/issues/2832504-2.patch (2832504 - Send the CKEditor instance ID to the embed.preview route)
+
+  - Installing drupal/entity_browser (2.0.0-alpha2): Loading from cache
+  - Applying patches for drupal/entity_browser
+    https://www.drupal.org/files/issues/entity-browser-view-context-2865928-14.patch (2865928 - The View widget should filter based on field settings)
+    https://www.drupal.org/files/issues/2877751-17.patch (2877751 - Inform users how many items they can add to a field that uses an entity browser)
+
+  - Installing drupal/entity_block (1.0.0-alpha2): Loading from cache
+  - Applying patches for drupal/entity_block
+    https://www.drupal.org/files/issues/entity_block-view-builder-class.patch (2844068 - Create derivatives for any viewable entity.)
+    https://www.drupal.org/files/issues/2846004-2.patch (2846004 - Entity Block does not perform any access control)
+
+  - Installing drupal/dropzonejs (2.0.0-alpha3): Loading from cache
+  - Installing sunra/php-simple-html-dom-parser (v1.5.2): Loading from cache
+  - Installing ezyang/htmlpurifier (v4.10.0): Loading from cache
+  - Installing caxy/php-htmldiff (v0.1.6): Loading from cache
+  - Installing mkalkbrenner/php-htmldiff-advanced (0.0.8): Loading from cache
+  - Installing drupal/diff (1.0.0-rc1): Loading from cache
+  - Installing drupal/contact_storage (1.0.0-beta9): Loading from cache
+  - Installing drupal/acquia_connector (1.14.0): Loading from cache
+  - Installing bower-asset/dropzone (v5.1.1): Loading from cache
+  - Installing bower-asset/cropper (v2.3.4): Loading from cache
+  - Installing acquia/lightning (2.2.8): Loading from cache
+  - Installing drupal/cog (1.13.0): Loading from cache
+  - Installing drupal/config_filter (1.1.0): Loading from cache
+  - Installing drupal/config_split (1.3.0): Loading from cache
+  - Installing drupal/devel (1.2.0): Loading from cache
+  - Installing drupal/memcache (2.0.0-alpha5): Loading from cache
+  - Installing drupal/qa_accounts (1.0.0-alpha1): Loading from cache
+  - Installing drupal/seckit (1.0.0-alpha2): Loading from cache
+  - Installing drupal/security_review (dev-1.x 9a3bdf8): Cloning 9a3bdf82a6 from cache
+  - Installing drupal/shield (1.2.0): Loading from cache
+Generating optimized autoload files
+Gathering patches for root package.
+Removing package drupal/core so that it can be re-installed and re-patched.
+  - Removing drupal/core (8.4.5)
+Deleting docroot/core - deleted
+Loading composer repositories with package information
+Installing dependencies from lock file
+Package operations: 1 install, 0 updates, 0 removals
+Gathering patches for root package.
+Gathering patches for dependencies. This might take a minute.
+  - Installing drupal/core (8.4.5): Loading from cache
+  - Applying patches for drupal/core
+    https://www.drupal.org/files/issues/2752961-90.patch (Clear Twig caches on deploys)
+    https://www.drupal.org/files/issues/1356276-408--8.4.4.patch (1356276 - Allow profiles to provide a base/parent profile and load them in the correct order)
+    https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch (2880374 - Experimental modules should not have warnings after being installed)
+    https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch (2869592 - Disabled update module shouldn't produce a status report warning)
+    https://www.drupal.org/files/issues/2885441-2.patch (2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer)
+    https://www.drupal.org/files/issues/2883813-27.patch (2883813 - Move File/Image media type into Standard once Media is stable)
+    https://www.drupal.org/files/issues/2877383-23.patch (2877383 - Add action support to Media module)
+    https://www.drupal.org/files/issues/2862041-229.patch (2862041 - Provide useful Views filters for Content Moderation State fields)
+    https://www.drupal.org/files/issues/2815221-69-8.4.x.patch (2815221 - Add quickedit to the latest-revision route)
+
+Generating optimized autoload files
+PHP CodeSniffer Config installed_paths set to ../../drupal/coder/coder_sniffer/
+You are using Drupal packages that are not supported by the Drupal Security Team!
+  - drupal/wbm2cm:dev-2.x: Project has not opted into security advisory coverage!
+  - drupal/video_embed_field:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/consumers:1.0.0.0-beta2: Beta releases are not covered by Drupal security advisories.
+  - drupal/inline_entity_form:1.0.0.0-beta1: Beta releases are not covered by Drupal security advisories.
+  - drupal/scheduled_updates:1.0.0.0-alpha6: Project has not opted into security advisory coverage!
+  - drupal/schemata:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/schemata_json_schema:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/openapi:1.0.0.0-alpha1: Project has not opted into security advisory coverage!
+  - drupal/media_entity_twitter:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/media_entity_instagram:2.0.0.0-alpha1: Alpha releases are not covered by Drupal security advisories.
+  - drupal/entity:1.0.0.0-beta1: Beta releases are not covered by Drupal security advisories.
+  - drupal/media_entity:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/media_entity_image:dev-1.x: Dev releases are not covered by Drupal security advisories.
+  - drupal/media_entity_document:dev-1.x: Dev releases are not covered by Drupal security advisories.
+  - drupal/crop:2.0.0.0-beta1: Beta releases are not covered by Drupal security advisories.
+  - drupal/entity_embed:1.0.0.0-beta2: Beta releases are not covered by Drupal security advisories.
+  - drupal/entity_browser:2.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/entity_block:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/dropzonejs:2.0.0.0-alpha3: Project has not opted into security advisory coverage!
+  - drupal/diff:1.0.0.0-RC1: RC releases are not covered by Drupal security advisories.
+  - drupal/contact_storage:1.0.0.0-beta9: Beta releases are not covered by Drupal security advisories.
+  - drupal/memcache:2.0.0.0-alpha5: Alpha releases are not covered by Drupal security advisories.
+  - drupal/qa_accounts:1.0.0.0-alpha1: Project has not opted into security advisory coverage!
+  - drupal/seckit:1.0.0.0-alpha2: Alpha releases are not covered by Drupal security advisories.
+  - drupal/security_review:dev-1.x: Dev releases are not covered by Drupal security advisories.
+See https://www.drupal.org/security-advisory-policy for more information.
+PHP CodeSniffer Config installed_paths set to ../../drupal/coder/coder_sniffer/
+[ExecStack] Done in 01:33
+Sanitizing artifact...
+The deployment artifact was generated at /home/gurubaran/summer/deploy.
+Committing artifact to master-build-temp...
+The tag 1.0.0 was created for the build artifact.
+Pushing artifact to git.remotes...
+PHP Warning:  md5() expects parameter 1 to be string, array given in /home/gurubaran/summer/vendor/acquia/blt/src/Robo/Commands/Deploy/DeployCommand.php on line 521
+[ExecStack] git push  1.0.0
+[ExecStack] Running git push  1.0.0 in /home/gurubaran/summer/deploy
+fatal: The current branch master-build-temp has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream 1.0.0 master-build-temp
+
+[ExecStack]  Exit code 128  Time 0.009s
+gurubaran@gurubaran:~/summer/docroot$ git branch -v
+* master 1178689 BLT-000: summer first commit by gurubaran.
+gurubaran@gurubaran:~/summer/docroot$ cd ../deploy
+gurubaran@gurubaran:~/summer/deploy$ git branch -v
+* master-build-temp 0269713 tag summer
+gurubaran@gurubaran:~/summer/deploy$ git push --set-upstream 1.0.0 master-build-temp
+fatal: '1.0.0' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gurubaran@gurubaran:~/summer/deploy$ 
+
